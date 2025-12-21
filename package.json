@@ -14,7 +14,7 @@
     "url": "https://tailadmin.com"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.48.1",
+    "@supabase/supabase-js": "^2.89.0",
     "apexcharts": "^3.41.0",
     "axios": "^1.7.9",
     "datatables.net": "^2.2.2",

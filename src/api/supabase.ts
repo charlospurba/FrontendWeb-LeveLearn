@@ -1,7 +1,9 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl: string = 'https://msvsocwvhpxfnfhjewar.supabase.co';
-const supabaseAnonKey: string =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1zdnNvY3d2aHB4Zm5maGpld2FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQyNzYwMDMsImV4cCI6MjA1OTg1MjAwM30.JU8lS8Mv6oK4OuToyCTHv6vQPNw6qiDgnCXTEPVv6Ic';
+// 1. Ambil dari 'Project URL' di dashboard
+const supabaseUrl = 'https://hfuwatcoqcitqykvrtbp.supabase.co' 
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+// 2. Ambil dari 'anon public key' di dashboard
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhmdXdhdGNvcWNpdHF5a3ZydGJwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYyNDYyODEsImV4cCI6MjA4MTgyMjI4MX0.JGgZorny4tj7Zo5G7KfuA30dwpX3F5iL3tvLeJIeW4c' 
+
+export const supabase = createClient(supabaseUrl, supabaseKey)
